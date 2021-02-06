@@ -1,0 +1,24 @@
+{
+  "name": "omadatalk",
+  "version": "1.0.0",
+  "description": "Web application that will allow the employees of OmadaTek to socialize with one another. They will be prompted to log in or sign up to their account. Once authenticated the user will be allowed access into the platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyson225/OmadaTalk.git"
+  },
+  "author": "Tyson McDonald",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tyson225/OmadaTalk/issues"
+  },
+  "homepage": "https://github.com/tyson225/OmadaTalk#readme",
+  "dependencies": {
+    "apollo-server": "^2.19.2",
+    "graphql": "^15.5.0",
+    "mongoose": "^5.11.15"
+  }
+}
