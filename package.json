@@ -4,21 +4,26 @@
   "description": "Web application that will allow the employees of OmadaTek to socialize with one another. They will be prompted to log in or sign up to their account. Once authenticated the user will be allowed access into the platform",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tyson225/OmadaTalk.git"
+    "url": "git+https://github.com/tyson225/OmadaText.git"
   },
   "author": "Tyson McDonald",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tyson225/OmadaTalk/issues"
+    "url": "https://github.com/tyson225/OmadaText/issues"
   },
-  "homepage": "https://github.com/tyson225/OmadaTalk#readme",
+  "homepage": "https://github.com/tyson225/OmadaText#readme",
   "dependencies": {
     "apollo-server": "^2.19.2",
+    "bcryptjs": "^2.4.3",
     "graphql": "^15.5.0",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.11.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
