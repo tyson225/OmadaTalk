@@ -1,0 +1,15 @@
+:root {
+  --logo-blue: #1a55f2;
+  --logo-green: #00c99e;
+}
+
+.body {
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+.title-header {
+  display: block !important;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 10px;
+}
