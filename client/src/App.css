@@ -13,3 +13,9 @@
   font-size: 2rem;
   margin-top: 10px;
 }
+
+.form-container {
+    width: 650px;
+    margin: auto;
+    padding-top: 1.5rem;
+}
